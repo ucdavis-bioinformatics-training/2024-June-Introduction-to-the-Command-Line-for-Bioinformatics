@@ -19,7 +19,7 @@ navigation:
     url: base/zoom
   - title: Cheat Sheets
     url: base/cheatSheetIndex
-  - title: Windows 10 and Mac installation
+  - title: Windows 10/11 and Mac installation
     url: base/windows_and_mac
 
   - heading: CLI
