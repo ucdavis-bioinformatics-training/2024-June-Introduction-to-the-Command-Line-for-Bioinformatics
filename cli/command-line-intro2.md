@@ -333,7 +333,7 @@ submitButton4 = document.getElementById('submit4');
 
 myQuestions4 = [
   {
-    question: "In the PhiX directory, count the number of the files ending in '.fa'. You will need to use the 'wc' command:",
+    question: "In the PhiX directory, count the number of the files ending in '.fa'. You will need to use the 'find' and wc' commands:",
     answers: {
       a: "15",
       b: "9",
