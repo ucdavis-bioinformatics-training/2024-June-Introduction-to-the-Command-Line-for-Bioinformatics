@@ -136,7 +136,7 @@ why 'concatenate'? try this:
 OK, let's destroy what we just created:
 
     cd ../
-    rmdir tmp2  # 'rmdir' meands 'remove directory', but this shouldn't work!
+    rmdir tmp2  # 'rmdir' means 'remove directory', but this shouldn't work!
     rm tmp2/first.txt
     rm tmp2/second.txt  # clear directory first
     rmdir tmp2  # should succeed now
