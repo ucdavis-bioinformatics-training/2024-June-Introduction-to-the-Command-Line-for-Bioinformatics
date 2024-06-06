@@ -32,7 +32,7 @@ navigation:
   - title: Extra
     url: cli/extra
   - title: BashCrawl
-    url: https://github.com/mks22-dw/bashcrawl
+    url: https://gitlab.com/slackermedia/bashcrawl
   #- title: Challenge & Homework Solutions
   #  url: cli/solutions
 
