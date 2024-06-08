@@ -36,7 +36,7 @@ This is taking the output of the find command and then creating a list of all th
 .bashrc/.zshrc, aliases & the PATH variable
 -----------------------------------------------------
 
-On a Linux system, there is usually a user-modifiable file of commands that gets run every time you log in. This is used to set up your environment the way that you want it. On Windows it is called ".bashrc" and it resides in your home directory. On Mac it is called ".zshrc". Sometimes the file is called ".bash_profile". Take a look at a .bashrc:
+On a Linux system, there is usually a user-modifiable file of commands that gets run every time you log in. The name of this file depends on which shell you are running. This is used to set up your environment the way that you want it. On Windows it is called ".bashrc" and it resides in your home directory. On Mac it is called ".zshrc". Sometimes the file is called ".bash_profile". Take a look at a .bashrc:
 
     cat ~/.bashrc
 
