@@ -16,9 +16,9 @@ If we want to refine the command to only show you files that end in ".so", we us
 
     find /usr/lib -name "*.so"
 
-One of the most powerful uses of find is to execute commands on every file it finds. To do this, you use the "-exec" option. When you use that option, everything after the "-exec" is assumed to be a command, and you use the "{}" characters to substitute for the file names that it finds. So in the command below, "wc -l" will get executed sequentially for every file it finds. Finally, the exec option needs to end with a semi-colon, however, since the semi-colon is a special character that the shell will try to interpret, you need to "escape" the semi-colon with a backslash, to indicate to the shell that the semi-colon is NOT to be interpreted and just sent as is to the find command:
+One of the most powerful uses of find is to execute commands on every file it finds. To do this, you use the "-exec" option. When you use that option, everything after the "-exec" is assumed to be a command, and you use the "{}" characters to substitute for the file names that it finds. So in the command below, "wc -l" will get executed sequentially for every file it finds. Finally, the exec option needs to end with a semi-colon, however, since the semi-colon is a special character that the shell will try to interpret, you need to put it in single quotes to indicate to the shell that the semi-colon is NOT to be interpreted and just sent as is to the find command:
 
-    find /usr/lib -name "*.so" -exec wc -l {} \;
+    find /usr/lib -name "*.so" -exec wc -l {} ';'
 
 You will probably want to Ctrl-C out of this because it will take a long time to go through them all.
 
